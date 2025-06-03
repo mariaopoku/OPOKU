@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading {
+    background-color: black;
+    margin: 0;
+    padding: 5px 3px
+}
+
+.lead {
+    color: white;
+    letter-spacing: 2px;
+    font-family: Lato;
+    margin-left: 9px;
+    
+}
+.block-1 {
+    height: 90vh;
+    background-image: url('./img/2-1.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+.block-1:hover{
+    letter
+}
+.welcome {
+    font-size: 4rem;
+    color: brown;
+    transition: 1s all;
+    
+    
+
+
+}
+
+.block-1:hover{
+    letter-spacing: 4px;
+}
+.welcome-btn {
+    text-decoration: wavy;
+    font-size: 1.2rem;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    padding: 9px 15px;
+    border-radius: 29px;
+    transition: 1.5s all;
+}
+
+.welcome-btn:hover{
+    background-color: black;
+    color: brown;
+}
+/*Styles for block-3*/
+.block-2{
+    background-color: aquamarine;
+    padding: 5px 15px;
+}
+
+.title-2{
+    text-align: center;
+    color: brown;
+}
+
+.p-2::first-letter{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: bisque;
+    
+}
+.p-2{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: aqua;
+}
+
+/*
